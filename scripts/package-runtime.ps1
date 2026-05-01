@@ -3,7 +3,7 @@
 
 param(
     [string]$Version = "0.1.0",
-    [int]$PartSizeMB = 1900
+    [int]$PartSizeMB = 500
 )
 
 $ErrorActionPreference = "Stop"

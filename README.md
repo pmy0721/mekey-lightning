@@ -15,8 +15,7 @@ Download these files from the latest GitHub Release:
 
 - `Mekey-Lightning-Setup-0.1.0-x64.exe`
 - `Install-Mekey-Lightning-Runtime.ps1`
-- `Mekey-Lightning-Runtime-0.1.0.tar.gz.part001`
-- `Mekey-Lightning-Runtime-0.1.0.tar.gz.part002`
+- all files matching `Mekey-Lightning-Runtime-0.1.0.tar.gz.part*`
 - `checksums-all-0.1.0.txt`
 
 Install the app first, then put the runtime files in the same folder and run:

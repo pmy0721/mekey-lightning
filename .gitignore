@@ -1,0 +1,41 @@
+# Logs
+*.log
+
+# Dependencies
+node_modules/
+dist/
+dist-ssr/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+build/
+*.spec
+
+# Tauri
+src-tauri/target/
+src-tauri/binaries/*.exe
+src-tauri/resources/transcribe-service/
+
+# Release assets
+release/
+
+# Env
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# App data
+*.db
+*.db-journal

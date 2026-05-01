@@ -1,0 +1,25 @@
+# Core ASR
+funasr>=1.1.14
+modelscope>=1.18.0
+
+# Audio I/O
+sounddevice>=0.4.6
+numpy>=1.24.0,<2.0.0
+soundfile>=0.12.1
+
+# Server
+websockets>=12.0
+aiohttp>=3.9.0
+
+# LLM
+anthropic>=0.40.0
+
+# Storage
+aiosqlite>=0.20.0
+
+# Utilities
+python-dotenv>=1.0.0
+loguru>=0.7.2
+
+# Build
+pyinstaller>=6.5.0

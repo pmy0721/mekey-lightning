@@ -13,10 +13,10 @@ distributed separately so GitHub Releases can host the large runtime files.
 
 Download these files from the latest GitHub Release:
 
-- `Mekey-Lightning-Setup-0.1.0-x64.exe`
+- `Mekey-Lightning-Setup-0.1.1-x64.exe`
 - `Install-Mekey-Lightning-Runtime.ps1`
-- all files matching `Mekey-Lightning-Runtime-0.1.0.tar.gz.part*`
-- `checksums-all-0.1.0.txt`
+- all files matching `Mekey-Lightning-Runtime-0.1.1.tar.gz.part*`
+- `checksums-runtime-0.1.1.txt`
 
 Install the app first, then put the runtime files in the same folder and run:
 
@@ -72,7 +72,7 @@ npm run tauri build
 Package runtime release assets:
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File .\scripts\package-runtime.ps1 -Version 0.1.0
+powershell -ExecutionPolicy Bypass -File .\scripts\package-runtime.ps1 -Version 0.1.1
 ```
 
 ## Requirements

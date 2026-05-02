@@ -179,7 +179,7 @@ python -c "import torch; print(torch.cuda.is_available(), torch.cuda.get_device_
 ## 调试技巧
 
 ### 查看 sidecar 日志
-日志会写入 `%APPDATA%\RealtimeTranscribe\sidecar.log`，包含 DEBUG 级别信息。
+日志会写入 `%APPDATA%\Mekey Lightning\data\sidecar.log`，包含 DEBUG 级别信息。
 
 ### 前端 DevTools
 开发模式下 Tauri 窗口右键 → "检查"，可以看 Console 和 Network。

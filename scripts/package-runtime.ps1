@@ -2,7 +2,7 @@
 # The output is split into parts smaller than GitHub's per-asset limit.
 
 param(
-    [string]$Version = "0.1.0",
+    [string]$Version = "0.1.1",
     [int]$PartSizeMB = 500
 )
 

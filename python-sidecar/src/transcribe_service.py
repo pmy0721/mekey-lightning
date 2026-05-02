@@ -38,7 +38,7 @@ OFFLINE_REFRESH_CHUNKS = 999999  # disabled during recording in low-latency mode
 LOW_LATENCY_STREAM_ONLY = True
 STREAM_COMMIT_INTERVAL = 2.0
 STREAM_COMMIT_MIN_CHARS = 8
-DATA_DIR = Path(os.getenv("APPDATA", os.path.expanduser("~"))) / "RealtimeTranscribe"
+DATA_DIR = Path(os.getenv("APPDATA", os.path.expanduser("~"))) / "Mekey Lightning" / "data"
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 DB_PATH = DATA_DIR / "transcripts.db"
 SETTINGS_PATH = DATA_DIR / "settings.json"
@@ -214,6 +214,7 @@ class ASREngine:
             model="paraformer-zh-streaming",
             device="cuda:0",
             disable_update=True,
+            disable_pbar=True,
         )
         logger.info("Loading offline model (paraformer-zh + vad + punc)...")
         self.offline_model = AutoModel(
@@ -222,6 +223,7 @@ class ASREngine:
             punc_model="ct-punc",
             device="cuda:0",
             disable_update=True,
+            disable_pbar=True,
         )
         logger.info("✓ Models loaded")
         self.warmup_inference()

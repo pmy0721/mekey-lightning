@@ -1,6 +1,6 @@
 [package]
 name = "mekey-lightning"
-version = "0.1.0"
+version = "0.1.1"
 description = "Realtime long-form voice transcription"
 authors = ["MekeyPan"]
 edition = "2021"

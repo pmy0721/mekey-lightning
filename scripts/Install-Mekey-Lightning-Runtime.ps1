@@ -6,7 +6,7 @@
 # Then run it from PowerShell.
 
 param(
-    [string]$Version = "0.1.0",
+    [string]$Version = "0.1.1",
     [string]$InstallRoot = (Join-Path $env:APPDATA "Mekey Lightning\runtime"),
     [string]$WorkDir = ""
 )
